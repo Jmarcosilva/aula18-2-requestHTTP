@@ -1,1 +1,35 @@
-<p>combustiveis works!</p>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela combustiveis</title>
+</head>
+<body>
+
+    <div class="container">
+    <h1>Tabela de Combustíveis</h1>
+    <hr>
+
+    <table class="table">
+
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Marca</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let combustivel of combustiveis">
+            <th scope="row">{{combustivel.id}}</th>
+            <td>{{combustivel.nome}}</td>
+            <td>{{combustivel.marca}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+</body>
+</html>

@@ -1,5 +1,11 @@
 {
     "carros":[
         {"id":1, "marca":"Fiat", "modelo":"Palio"}
+    ],
+
+    "combustiveis":[
+        {"id":1, "nome":"gasolina aditivada", "marca":"Ale"},
+        {"id":2, "nome":"gasolina comum", "marca":"Petrobras"},
+        {"id":3, "nome":"etanol", "marca":"Ipiranga"}
     ]
 }
