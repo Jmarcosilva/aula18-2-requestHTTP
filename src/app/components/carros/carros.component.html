@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+</head>
+<body>
+    <h1>Lista de Carros</h1>
+
+    <table>
+        <tr>
+            <th>id</th>
+            <th>marca</th>
+            <th>modelo</th>
+        </tr>
+
+        <tr *ngFor="let carro of carros">
+            <td>{{carro.id}}</td>
+            <td>{{carro.marca}}</td>
+            <td>{{carro.modelo}}</td>
+        </tr>
+    </table>
+
+</body>
+</html>
