@@ -14,7 +14,10 @@ export class CarrosService {
 
   getAll(): Observable<Carros[]>{
     return this.http.get<Carros[]>(this.apiUrl)
-    
+  }
+
+  getItem(id: number) : Observable<Carros>{
+    return this.http.get<Carros>(`${this.apiUrl}/${id}` )
   }
  
 }

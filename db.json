@@ -1,6 +1,8 @@
 {
     "carros":[
-        {"id":1, "marca":"Fiat", "modelo":"Palio"}
+        {"id":1, "marca":"Fiat", "modelo":"Palio"},
+        {"id":2, "marca":"audi", "modelo":"a3"},
+        {"id":3, "marca":"renalt", "modelo":"sandeiro"}
     ],
 
     "combustiveis":[

@@ -23,7 +23,7 @@
 
         <tbody>
           <tr *ngFor="let carro of carros">
-            <th scope="row">{{carro.id}}</th>
+            <th scope="row"><a href="/list/{{carro.id}}">{{carro.id}}</a> </th>
             <td>{{carro.marca}}</td>
             <td>{{carro.modelo}}</td>
           </tr>
