@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela combustiveis</title>
+    <title>Tabela Postos</title>
 </head>
 <body>
 
     <div class="container">
-    <h1>Tabela de Combustíveis</h1>
+    <h1>Tabela de Postos</h1>
     <hr>
 
     <table class="table">
@@ -16,16 +16,16 @@
         <thead>
           <tr>
             <th scope="col">Id</th>
-            <th scope="col">Marca</th>
-            <th scope="col">Modelo</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Bandeira</th>
           </tr>
         </thead>
 
         <tbody>
-          <tr *ngFor="let carro of carros">
-            <th scope="row">{{carro.id}}</th>
-            <td>{{carro.marca}}</td>
-            <td>{{carro.modelo}}</td>
+          <tr *ngFor="let posto of postos">
+            <th scope="row">{{posto.id}}</th>
+            <td>{{posto.nome}}</td>
+            <td>{{posto.bandeira}}</td>
           </tr>
         </tbody>
       </table>

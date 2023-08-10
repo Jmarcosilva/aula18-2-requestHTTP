@@ -7,5 +7,11 @@
         {"id":1, "nome":"gasolina aditivada", "marca":"Ale"},
         {"id":2, "nome":"gasolina comum", "marca":"Petrobras"},
         {"id":3, "nome":"etanol", "marca":"Ipiranga"}
+    ],
+
+    "postos":[
+        {"id":1, "nome":"Corujão", "bandeira":"Ale"},
+        {"id":2, "nome":"Chicago", "bandeira":"Petrobras"},
+        {"id":3, "nome":"Alto Sion", "bandeira":"Ipiranga"}
     ]
 }

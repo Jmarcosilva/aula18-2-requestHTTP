@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CarrosComponent } from './components/carros/carros.component';
 import { CombustiveisComponent } from './components/combustiveis/combustiveis.component';
+import { PostosComponent } from './components/postos/postos.component';
 
 const routes: Routes = [
   {path:"carros", component:CarrosComponent},
-  {path:"combustiveis", component: CombustiveisComponent}
+  {path:"combustiveis", component: CombustiveisComponent},
+  {path:"postos", component:PostosComponent}
 ];
 
 @NgModule({

@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { CarrosComponent } from './components/carros/carros.component';
 import { CombustiveisComponent } from './components/combustiveis/combustiveis.component';
 import { HttpClient } from '@angular/common/http';
+import { PostosComponent } from './components/postos/postos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarrosComponent,
-    CombustiveisComponent
+    CombustiveisComponent,
+    PostosComponent
   ],
   imports: [
     BrowserModule,
